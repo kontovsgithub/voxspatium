@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="czas_przerwy_milisekundy" >5000</integer>
+    <integer name="czas_szukania_milisekundy" >2000</integer>
+    <integer name="current_log_level" >5</integer> <!-- 1 minimalna dokładaność, 5 maksymalna dokładność  -->
+    <integer name="minimalna_poziom_wolnej_pamieci" >1000</integer> <!-- w MB  -->
+    <!--
+        commets
+     -->
+</resources>

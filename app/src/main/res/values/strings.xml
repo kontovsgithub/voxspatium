@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Vox Spatium</string>
+    <string name="app_version">1</string>                            <!--musi byc większe od zera, wartosc zero jest domyslna wartoscia zmiennej globalnej "numer_dostepnej_wersji"-->
+
+    <string name="new_session">APP:New session</string>
+    <string name="running_version">APP:Running version</string>
+
+    <string name="log_file_name">Log</string>
+    <string name="log_open_exception">APP:Log file open error</string>
+    <string name="log_security_exception">APP:Log file security error</string>
+
+    <string name="BLE_cannot_switchON">APP:BLE automatic start error</string>
+    <string name="BLE_successfully_switchON">APP:BLE automatic start success</string>
+    <string name="BLE_thread_sleep_exception">,APP:BLE scan exception=</string>
+    <string name="BLE_already_started_exception">,APP:BLE scan already restarted exception=</string>
+    <string name="BLE_Expected_UUID">f7826da64fa24e986756ab5b71e0893e</string>
+    <string name="BLE_Expected_Name">voxspatium</string>
+    <string name="BLE_major_recesived">APP:Major=</string>
+    <string name="BLE_minor_recesived">,APP:Minor=</string>
+
+    <string name="gps_exception">GPS:Exception</string>
+    <string name="gps_location_not_found">GPS:Location not found</string>
+
+    <string name="ACT_WifiOff">Please switch on and configure WiFi network to connect automatically to Internet (mandatory, if You do not use MOBILE network)</string>
+    <string name="ACT_WifiOn">WiFi OK, but check, if it automatically connects to Internet (mandatory, if You do not use MOBILE network)</string>
+    <string name="ACT_MOBILEOff">Please switch on and configure MOBILE network to connect automatically to Internet (mandatory, if You do not use WiFi network)</string>
+    <string name="ACT_MOBILEOn">MOBILE OK, but check, if it automatically connects to Internet (mandatory, if You do not use WiFi network)</string>
+    <string name="ACT_BluetoothOff">Please switch on Bluetooth</string>
+    <string name="ACT_BluetoothOn">Bluetooth OK</string>
+    <string name="ACT_GPSOff">Please switch on GPS</string>
+    <string name="ACT_GPSOn">GPS OK</string>
+    <string name="ACT_GPS_permission_denied_1">Please set in Settings/Apps/</string>
+    <string name="ACT_GPS_permission_denied_2">permission to location</string>
+    <string name="ACT_GPS_permission_granted">Permission to location OK</string>
+    <string name="ACT_ServiceInfo">Service contact support@voxspatium.org</string>
+    <string name="ACT_LicenseInfo_Title">License notice</string>
+    <!--wyświetlenie linków http za pomoca stałej ACT_LicenseInfo_Body nie działa, Treść jest wpisana na sztywno w kod MainActivity.java  -->
+    <string name="ACT_LicenseInfo_Body">Software is available under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License</a>, includes Apache Commons Net library available under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License version 2.0, January 2004</a></string>
+
+    <string name="SelectAndPlayService_create">SPS:Created</string>
+    <string name="SelectAndPlayService_start">SPS:Started</string>
+    <string name="SelectAndPlayService_stop">SPS:Stopped</string>
+    <string name="SelectAndPlayService_select_result">SPS:Select result </string>
+    <string name="SelectAndPlayService_major_recesived">SPS:Major=</string>
+    <string name="SelectAndPlayService_minor_recesived">,SPS:Minor=</string>
+    <string name="SelectAndPlayService_kanal_recesived">,SPS:Channel=</string>
+    <string name="SelectAndPlayService_waiting_for_player">TTS:Wait for initialization</string>
+    <string name="SelectAndPlayService_playing_started">TTS:Playing</string>
+    <string name="SelectAndPlayService_playing_finished">TTS:Finished</string>
+    <string name="SelectAndPlayService_player_error">TTS:Error</string>
+
+    <string name="UpdateFilesService_created">UFS:Created</string>
+    <string name="UpdateFilesService_start">UFS:Started</string>
+    <string name="UpdateFilesService_stop">UFS:Stopped</string>
+    <string name="UpdateFilesService_CloseDB_error">UFS:Close database error</string>
+    <string name="UpdateFilesService_HostName">46.41.148.108</string>                           <!--hostname.domain.org  -->
+    <string name="UpdateFilesService_User">dictionary</string>                    <!--user name  -->
+    <string name="UpdateFilesService_Password">Q6Sw#De$osr</string>                              <!--password  -->
+    <string name="UpdateFilesService_HostNameDirectory"></string>                                <!--katalog na serwerze z aktualną bazą danych  -->
+    <string name="UpdateFilesService_DBfilenameMask">DB</string>                                 <!--full name: DBxxxxx.sql, xxxxx means database version number-->
+    <string name="UpdateFilesService_DBversions">UFS:Database versions installed:</string>
+    <string name="UpdateFilesService_transmission_error">UFS:transmission error</string>
+    <string name="UpdateFilesService_file_received">UFS:Received file</string>
+    <string name="UpdateFilesService_connection_close_error">UFS:connection close error</string>
+    <string name="UpdateFilesService_ReadDBVersionError">UFS:read available DB version error</string>
+    <string name="UpdateFilesService_NetworkOff">UFS:network is switch off or not connected</string>
+
+    <string name="SendFilesService_created">SFS:Created</string>
+    <string name="SendFilesService_start">SFS:Started</string>
+    <string name="SendFilesService_stop">SFS:Stopped</string>
+    <string name="SendFilesService_NetworkOff">SFS:network is switch off or not connected</string>
+    <string name="SendFilesService_HostName">46.41.148.108</string>                            <!--hostname.domain.org  -->
+    <string name="SendFilesService_User">log</string>                            <!--user name  -->
+    <string name="SendFilesService_Password">ER$23nq$##c</string>                               <!--password  -->
+    <string name="SendFilesService_HostNameDirectory"></string>                                 <!--katalog na serwerze z prawami zapisu  -->
+    <string name="SendFilesService_file_send">SFS:file send</string>
+    <string name="SendFilesService_transmission_error">SFS:transmission error</string>
+    <string name="SendFilesService_connection_close_error">SFS:connection close error</string>
+
+    <string name="VoiceUserInterface_ReceiveIntent">VUI:receive intent</string>
+    <string name="VoiceUserInterface_NetworkOff">VUI:WiFi and MOBILE network off</string>
+    <string name="VoiceUserInterface_BluetoothOff">VUI:bluetooth off</string>
+    <string name="VoiceUserInterface_GPSOff">VUI:GPS off</string>
+    <string name="VoiceUserInterface_GPS_permission_denied">VUI:GPS permission denied</string>
+    <string name="VoiceUserInterface_NoBLEsearch">VUI:cannot search BLE</string>
+    <string name="VoiceUserInterface_ScreenOn">VUI:Screen on</string>
+    <string name="VoiceUserInterface_ScreenOff">VUI:Screen off</string>
+    <string name="VoiceUserInterface_BatteryOff">VUI:Battery off</string>
+    <string name="VoiceUserInterface_new_version_available">VUI:New version available</string>
+
+    <string name="CheckVersionService_created">CVS:Created</string>
+    <string name="CheckVersionService_start">CVS:Started</string>
+    <string name="CheckVersionServiceURL">https://www.voxspatium.org/app_version</string>
+    <string name="CheckVersionService_stop">CVS:Stopped</string>
+    <string name="CheckVersionService_NetworkOff">CVS:network is switch off or not connected</string>
+    <string name="CheckVersionService_FoundVersion">CVS:available version</string>
+    <string name="CheckVersionService_transmission_error">CVS:transmission error</string>
+    <string name="CheckVersionService_StreamNull">CVS:HTTP stream null value error</string>
+    <string name="CheckVersionService_StreamClose_error">CVS:stream close error</string>
+    <string name="CheckVersionService_XML_parse_error">CVS:XML parse error</string>
+
+    <!--
+        commets
+     -->
+
+</resources>
