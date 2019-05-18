@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
 
         //wyświetlenie wersji i ID instalacji alias numer seryjny
         String id_instalacji="Unknown";
-        
+
         File[] files = this.getFilesDir().listFiles();
         for(int i=0; i<files.length; i++)
         {
