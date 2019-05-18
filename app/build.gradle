@@ -1,13 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'private_key_vox_spatium'
+            keyPassword 'ted^2MMei&*334'
+            storeFile file('/home/happy/Dane/VoxSpatium.org/Git i GooglePlay/private_key_to_sign_app_in_AndroidStudio.jks')
+            storePassword 'dyW$%#cdpSS'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "org.voxspatium"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 28 //testowane było na 23
         versionCode 1
         versionName "1.0"
     }
